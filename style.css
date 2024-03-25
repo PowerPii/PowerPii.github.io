@@ -1,0 +1,78 @@
+* {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    background-color: #02020A;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("images/background.jpeg");
+    background-position: contain;
+    background-size: contain;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100vw;
+}
+
+main .timer-countdown-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .timer-countdown-div h1 {
+    font-size: 150px;
+    margin: 0;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+main .timer-countdown-div .label-div {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .timer-countdown-div .label-div p {
+    min-width: 300px;
+    margin: 0;
+    color: #ffffffd0;
+}
+
+main .timer-countdown-div .label-div p:hover {
+    color: yellow;
+    transition: color 1s;
+}
+
+main .information-div {
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+}
+
+main .information-div div h1 {
+    font-size: 60px;
+    color: white;
+}
+
+footer p {
+    height: 10vh;
+    margin: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    main h1 {
+        font-size: 60px;
+    }
+  }
