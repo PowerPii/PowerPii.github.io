@@ -1,0 +1,60 @@
+* {
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    background-color: #02020A;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+}
+
+header button {
+    padding: 10px;
+    background-color: #02020A;
+    border: 1px solid white;
+}
+
+.active {
+    background-color: yellow;
+    color: black;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 150px;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+main .timer-countdown-div {
+    display: flex;
+    flex-direction: column;
+}
+main .timer-countdown-div .middle-text {
+    min-width: 80vw;
+    text-align: center;
+}
+
+main .timer-countdown-div .lower-text {
+    align-self: end;
+}
+
+@media only screen and (max-width: 700px) {
+    main h1 {
+        font-size: 80px;
+    }
+  }
