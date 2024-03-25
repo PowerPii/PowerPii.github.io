@@ -30,7 +30,7 @@ main .timer-countdown-div {
 }
 
 main .timer-countdown-div h1 {
-    font-size: 150px;
+    font-size: 10vw;
     margin: 0;
     letter-spacing: 10px;
     text-align: center;
@@ -44,7 +44,7 @@ main .timer-countdown-div .label-div {
 }
 
 main .timer-countdown-div .label-div p {
-    min-width: 300px;
+    width: 20vw;
     margin: 0;
     color: #ffffffd0;
 }
@@ -61,18 +61,13 @@ main .information-div {
 }
 
 main .information-div div h1 {
-    font-size: 60px;
+    font-size: 3vw;
     color: white;
 }
 
 footer p {
+    font-size: 2vw;
     height: 10vh;
     margin: 0;
     text-align: center;
 }
-
-@media only screen and (max-width: 700px) {
-    main h1 {
-        font-size: 60px;
-    }
-  }
