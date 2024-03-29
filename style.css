@@ -25,8 +25,7 @@ main .timer-countdown-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 main .timer-countdown-div h1 {
@@ -36,22 +35,9 @@ main .timer-countdown-div h1 {
     text-align: center;
 }
 
-main .timer-countdown-div .label-div {
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-main .timer-countdown-div .label-div p {
-    width: 20vw;
+main .timer-countdown-div p {
     margin: 0;
-    color: #ffffffd0;
-}
-
-main .timer-countdown-div .label-div p:hover {
-    color: yellow;
-    transition: color 1s;
+    text-align: center;
 }
 
 main .information-div {

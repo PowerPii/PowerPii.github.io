@@ -7,12 +7,9 @@ function updateTimer() {
 
     const timeDisplay = document.getElementById('value');
 
-    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
-    const seconds = Math.floor((timeLeft / 1000) % 60);
+    const seconds = Math.ceil(timeLeft/1000)
 
-    const countdownString = `${zeroPad(days, 2)}:${zeroPad(hours, 2)}:${zeroPad(minutes, 2)}:${zeroPad(seconds, 2)}`;
+    const countdownString = `${seconds}`;
 
     timeDisplay.textContent = countdownString;
 }
