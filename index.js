@@ -1,7 +1,7 @@
 const zeroPad = (num, places) => String(num).padStart(places, '0')
 
 function updateTimer() {
-    const targetDate = new Date('April 21, 2026 12:00:00 GMT+0800');
+    const targetDate = new Date('April 21, 2026 18:45:00 GMT+0800');
     const now = new Date();
     const timeLeft = targetDate - now;
 
